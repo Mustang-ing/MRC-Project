@@ -27,27 +27,35 @@ with open('ml-100k/u1.base', 'r') as csvfile:
 
     g = Graph() # Generation d'un objet RDF Graphe (Ontologie)
     g.parse("Movie.rdf")
-    # print(g.serialize()) POur voir si l'ontologie est bien charger
+    #print(g.serialize()) #Pour voir si l'ontologie est bien charger
     #Objectif : Générer un nouvel inidividu prenant pour informations la 2eme ligne du data csv 
 
     #Commencer par faire le namespace
     
     Movie_namespace = Namespace("http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl")
     
-    User2 = n.User2 # http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl/User2
+    User2 = Movie_namespace.User2 # http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl/User2
     user_id = Literal(user_id_sample[1])
     movieId = Literal(item_id_sample[1])
     rating = Literal(rating_sample[1])
 
     print(f"User2 : URI : {User2} | User_id : {user_id} | MovieId : {movieId} | Rating : {rating}")
     
-    g.add((User2,RDF.type,n.Rating) #Ajouter le triplet sur le type
-    g.add((User2,n.userId,user_id))  
-    g.add((User2,n.movieid,movieId))
-    g.add((User,n.rate,rate))
+    g.add((User2,RDF.type,Movie_namespace.Rating)) #Ajouter le triplet sur le type
+    g.add((User2,Movie_namespace.userId,user_id))  
+    g.add((User2,Movie_namespace.movieid,movieId))
+    g.add((User2,Movie_namespace.rate,rating))
 
-    print(g.serialize())
+    #print(g.serialize())
+    
+    RDF_file = g.serialize(format='xml')
+    #print(RDF_file)
 
+    # Write to file
+    with open("New_Movie.rdf", 'w', encoding='utf-8') as rdf_output:
+        rdf_output.write(RDF_file)
+
+    print(f"RDF data successfully written")
 
     """
     for i in range(0,20):

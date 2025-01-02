@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+	xmlns:Movie="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#"
+	xmlns:ns1="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#releaseDate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMBDbUrl">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="N82d1e0326a6a44f4afaab537a6d89e0f">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForKind"/>
+	<owl:allValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Kind"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owlUser2">
+	<rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owlRating"/>
+	<ns1:Movie.owluserId rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:Movie.owluserId>
+	<ns1:Movie.owlmovieid rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:Movie.owlmovieid>
+	<ns1:Movie.owlrate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:Movie.owlrate>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Kind"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#movieTitle">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:nodeID="N97225361d1f443ce9a558a82433ad374"/>
+	<rdfs:subClassOf rdf:nodeID="N2784035890bc46d69b107b30a763ae55"/>
+	<rdfs:subClassOf rdf:nodeID="N9bac84c30f05468e8f15f3b875d63e95"/>
+	<rdfs:subClassOf rdf:nodeID="N7c81cf09a6e144ca84ee54db9f058836"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="N7c81cf09a6e144ca84ee54db9f058836">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
+	<owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">5</owl:maxQualifiedCardinality>
+	<owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#age">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="N7bc9434a068649b0846ff0e4b1a1bb75">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForOccupation"/>
+	<owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#gender">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#zipcode">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Kind">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="N9bac84c30f05468e8f15f3b875d63e95">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
+	<owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+	<owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+	<Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:movieId>
+	<Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</Movie:rate>
+	<Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+</rdf:Description>
+<rdf:Description rdf:nodeID="N97225361d1f443ce9a558a82433ad374">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+	<owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#occupation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#userId">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#movieId">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForOccupation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#itemId">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="N2784035890bc46d69b107b30a763ae55">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
+	<owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:nodeID="N7bc9434a068649b0846ff0e4b1a1bb75"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:nodeID="N82d1e0326a6a44f4afaab537a6d89e0f"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForKind">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#DataSomevalueFrom">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+</rdf:RDF>
