@@ -52,3 +52,10 @@ Pour ajouter des triplets RDF dans l'ontologie, il faut utiliser add est précis
 RDF_file = g.serialize(format='xml')
 with open("New_Movie.rdf", 'w', encoding='utf-8') as rdf_output:
         rdf_output.write(RDF_file)
+
+
+## Modification à faire 
+
+Il y encore quelque petit chose à changer 
+1) Il serait peut être plus judicieux de changer l'URI pour ne réutiliser la même que celle de Movie.rdf
+2) Dans l'êtat actuel, je ne suis pas sur de respecter les consignes, peut être faudrait-t'il uniquement génerer des individus via un fichier RDF/XML plutôt que de parse l'ontologie de base et d'y ajouter les individus
