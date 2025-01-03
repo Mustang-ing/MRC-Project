@@ -5,7 +5,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Movie="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl"/>
     
 
@@ -262,7 +263,12 @@
 
     <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:movieId>
+        <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</Movie:rate>
+        <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
