@@ -32,7 +32,7 @@ with open('ml-100k/u1.base', 'r') as csvfile:
 
     # Create the graph
     g = Graph()
-    g.parse("Movie.rdf")
+    #g.parse("Movie.rdf")
 
     #Bind the namespace to ensure proper prefixes
     g.bind("Movie", Movie_namespace)
