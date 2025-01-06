@@ -2,6 +2,7 @@ import csv
 from rdflib import URIRef,Literal,Namespace,Graph
 from rdflib.namespace import RDF,OWL
 
+
 # Etape 1 : Importer le fichier via csv.reader
 
 with open('ml-100k/u1.base', 'r') as csvfile:
@@ -15,16 +16,21 @@ with open('ml-100k/u1.base', 'r') as csvfile:
     user_id = [ int(x) for x in user_id]
     item_id = [ int(x) for x in item_id]
     rating = [ int(x) for x in rating]
+    
     #print(user_id)
     #print(item_id)
     #print(max(item_id))
 
     # Pour eviter de surcharger Protege, on va prendre un échantillon de 200 éléments, on ignore timestamp.
+    
+    N_sample = N[:200]
+    N_sample = [ x[:3] for x in N_sample ] #Removing the timestamp 
 
     user_id_sample = user_id[:200]
     item_id_sample = item_id[:200]
     rating_sample = rating[:200]
-
+  
+    print(N_sample)
 
 
     # Define the namespace
