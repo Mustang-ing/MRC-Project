@@ -67,34 +67,21 @@ with open('ml-100k/u.occupation','r') as csvfile5:
     #Bind the namespace to ensure proper prefixes
     g.bind("Movie", Movie_namespace)
 
-# -------- Individu de u1.base -----------------------------
-    # Create a new item and add properties
-    for i in range(len(N_sample)):
-        Item = Movie_namespace[f"Item{i}"]
-        user_id = Literal(N_sample[i][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-        movieId = Literal(N_sample[i][1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-        rating = Literal(N_sample[i][2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-        
-        print(Movie_namespace.userId)
-        print(Movie_namespace.movieId)
-        g.add((Item, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
-        g.add((Item, RDF.type, Movie_namespace.Rating))
-        g.add((Item, Movie_namespace.userId, user_id))
-        g.add((Item, Movie_namespace.movieId, movieId))
-        g.add((Item, Movie_namespace.rate, rating))
 
-    """
+
     Item2 = Movie_namespace.Item2
-    user_id = Literal(user_id_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-    movieId = Literal(item_id_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-    rating = Literal(rating_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+    #user_id = Movie_namespace[f"User{N_sample[1][0]}"]
+    user_id = Literal(N_sample[1][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+    movie_id = Movie_namespace[f"Movie{N_sample[1][1]}"]
+    #movieId = Literal(item_id_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+    rating = Literal(N_sample[1][2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
 
     g.add((Item2, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
     g.add((Item2, RDF.type, Movie_namespace.Rating))
     g.add((Item2, Movie_namespace.userId, user_id))
-    g.add((Item2, Movie_namespace.movieId, movieId))
+    g.add((Item2, Movie_namespace.hasForMovie, movie_id))
     g.add((Item2, Movie_namespace.rate, rating))
-    """
+
 
     RDF_file = g.serialize(format='xml')
     #print(RDF_file)
