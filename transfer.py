@@ -3,7 +3,7 @@ from rdflib import URIRef,Literal,Namespace,Graph
 from rdflib.namespace import RDF,OWL
 
 
-# Etape 1 : Importer le fichier via csv.reader
+# Etape 1 : Importer tous les fichier via csv.reader
 
 with open('ml-100k/u1.base', 'r') as csvfile1:
     try:
@@ -16,7 +16,7 @@ with open('ml-100k/u1.base', 'r') as csvfile1:
 
     N_sample = N1[:200]
     N_sample = [ x[:3] for x in N_sample ] #Removing the timestamp 
-     #print(N_sample)
+    #print(N_sample)
 
 with open('ml-100k/u.genre','r') as csvfile2:
     try:
@@ -52,28 +52,31 @@ with open('ml-100k/u.occupation','r') as csvfile5:
         print("Erreur fichier introuvable")
         exit(0)
     N5 = list(csv_reader)
-    print(N5)
+    #print(N5)
 
 
-
+#Etape 2 : Ecrire les instances sous forme RDF/XML
 
     # Define the namespace
     Movie_namespace = Namespace("http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#")
 
     # Create the graph
     g = Graph()
-    #g.parse("Movie.rdf")
+    g.parse("Movie.rdf")
 
     #Bind the namespace to ensure proper prefixes
     g.bind("Movie", Movie_namespace)
 
+# -------- Individu de u1.base -----------------------------
     # Create a new item and add properties
     for i in range(len(N_sample)):
         Item = Movie_namespace[f"Item{i}"]
         user_id = Literal(N_sample[i][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
         movieId = Literal(N_sample[i][1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-        rating = Literal(N_sample[2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-
+        rating = Literal(N_sample[i][2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        
+        print(Movie_namespace.userId)
+        print(Movie_namespace.movieId)
         g.add((Item, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
         g.add((Item, RDF.type, Movie_namespace.Rating))
         g.add((Item, Movie_namespace.userId, user_id))
