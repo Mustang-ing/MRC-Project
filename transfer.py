@@ -16,20 +16,20 @@ with open('ml-100k/u1.base', 'r') as csvfile:
     user_id = [ int(x) for x in user_id]
     item_id = [ int(x) for x in item_id]
     rating = [ int(x) for x in rating]
-    
+
     #print(user_id)
     #print(item_id)
     #print(max(item_id))
 
     # Pour eviter de surcharger Protege, on va prendre un échantillon de 200 éléments, on ignore timestamp.
-    
+
     N_sample = N[:200]
     N_sample = [ x[:3] for x in N_sample ] #Removing the timestamp 
 
     user_id_sample = user_id[:200]
     item_id_sample = item_id[:200]
     rating_sample = rating[:200]
-  
+
     #print(N_sample)
 
 
@@ -42,13 +42,22 @@ with open('ml-100k/u1.base', 'r') as csvfile:
 
     #Bind the namespace to ensure proper prefixes
     g.bind("Movie", Movie_namespace)
-"""
-    # Create a new individual and add properties
-    for x in range(len(N_sample)):
-        User = Movie_namespace.
-"""        
 
-    User2 = Movie_namespace.['User2']
+    # Create a new individual and add properties
+    for i in range(len(N_sample)):
+        User = Movie_namespace[f"User{i}"]
+        user_id = Literal(N_sample[i][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        movieId = Literal(N_sample[i][1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        rating = Literal(N_sample[2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+
+        g.add((User, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
+        g.add((User, RDF.type, Movie_namespace.Rating))
+        g.add((User, Movie_namespace.userId, user_id))
+        g.add((User, Movie_namespace.movieId, movieId))
+        g.add((User, Movie_namespace.rate, rating))
+
+    """
+    User2 = Movie_namespace.User2
     user_id = Literal(user_id_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
     movieId = Literal(item_id_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
     rating = Literal(rating_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
@@ -58,6 +67,7 @@ with open('ml-100k/u1.base', 'r') as csvfile:
     g.add((User2, Movie_namespace.userId, user_id))
     g.add((User2, Movie_namespace.movieId, movieId))
     g.add((User2, Movie_namespace.rate, rating))
+    """
 
     RDF_file = g.serialize(format='xml')
     #print(RDF_file)

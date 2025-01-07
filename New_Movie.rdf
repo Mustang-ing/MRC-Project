@@ -3,11 +3,1404 @@
    xmlns:Movie="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User2">
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User196">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">342</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">28</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User127">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">256</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User107">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">204</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User51">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">94</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">34</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User121">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">244</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User132">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">269</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User144">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">255</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User119">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">239</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User150">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">275</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User50">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User183">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">317</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User101">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">194</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User62">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">119</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User76">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">142</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User174">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">311</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">46</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User87">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">166</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User95">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">179</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User184">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">319</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User111">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">216</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User100">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">192</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User77">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">144</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User114">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">223</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User188">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">325</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User186">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">321</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User170">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">305</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User171">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">306</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User112">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">217</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User146">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">269</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User103">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">197</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User55">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">105</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User86">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">165</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User140">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">111</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User136">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User113">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">220</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
     <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
     <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:movieId>
-    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:rate>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User141">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">127</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User175">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">181</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User159">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">287</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User161">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">289</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User193">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">338</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User148">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">273</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User126">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">251</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User191">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">333</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User94">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">178</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">66</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">57</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User70">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">135</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User185">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">320</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User56">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">106</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User182">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">303</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User83">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">156</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User198">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">346</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User106">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">203</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User73">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">138</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User163">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">293</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User71">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">136</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User155">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">283</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User104">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">198</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User179">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">271</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">29</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User47">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">87</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User34">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">52</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User151">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">276</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User120">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">240</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User46">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">83</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User138">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User79">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">147</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User149">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">274</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User54">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">101</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User88">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">167</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User172">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">309</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User194">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">339</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User75">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">141</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User178">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">268</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User45">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">79</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User139">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User91">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">172</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User89">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">168</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User157">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">285</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User116">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">234</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User48">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">88</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User168">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">302</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User123">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">246</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User133">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">270</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User85">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">162</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User99">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">191</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User64">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">123</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User98">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">187</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User92">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">173</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User143">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">242</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User124">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">247</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">41</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User189">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">326</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User53">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">99</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User147">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">272</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User190">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">329</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User38">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">59</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User134">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">271</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User128">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">257</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User93">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">176</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User110">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">211</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User176">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">258</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User169">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">304</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User167">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User135">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User181">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">302</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User49">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">89</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User115">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">231</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User37">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User66">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">126</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User59">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">111</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User160">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User52">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">95</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">71</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User108">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">205</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User69">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">133</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User129">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">261</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User74">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">139</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User118">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">238</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User153">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">278</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User177">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">260</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User96">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">181</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User164">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">294</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">32</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">42</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">131</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User90">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">169</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User80">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">149</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User162">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">291</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User130">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">263</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User156">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">284</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User65">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">124</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User61">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">116</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User152">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">277</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User125">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">249</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">115</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">68</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">75</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User199">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">347</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User122">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">245</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User142">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">237</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User109">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">207</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User173">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">310</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User63">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">122</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">11</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User97">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">182</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User57">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">109</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User78">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">146</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User195">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">340</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User67">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">127</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User154">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">282</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User158">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">286</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User165">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">295</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User102">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">195</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User117">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">237</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User187">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">322</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">77</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User58">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">110</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User82">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">153</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User131">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">268</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User81">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">152</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User192">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">336</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User145">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">258</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User137">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">14</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User84">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">158</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User105">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">199</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User180">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">288</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User197">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">344</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User72">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">137</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User166">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    <Movie:userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</Movie:userId>
+    <Movie:movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">296</Movie:movieId>
+    <Movie:rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">['1', '3', '4']</Movie:rate>
   </rdf:Description>
 </rdf:RDF>
