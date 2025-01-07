@@ -30,7 +30,7 @@ with open('ml-100k/u1.base', 'r') as csvfile:
     item_id_sample = item_id[:200]
     rating_sample = rating[:200]
   
-    print(N_sample)
+    #print(N_sample)
 
 
     # Define the namespace
@@ -42,9 +42,13 @@ with open('ml-100k/u1.base', 'r') as csvfile:
 
     #Bind the namespace to ensure proper prefixes
     g.bind("Movie", Movie_namespace)
-
+"""
     # Create a new individual and add properties
-    User2 = Movie_namespace.User2
+    for x in range(len(N_sample)):
+        User = Movie_namespace.
+"""        
+
+    User2 = Movie_namespace.['User2']
     user_id = Literal(user_id_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
     movieId = Literal(item_id_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
     rating = Literal(rating_sample[1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
