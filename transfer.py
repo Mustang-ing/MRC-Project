@@ -68,7 +68,20 @@ with open('ml-100k/u.occupation','r') as csvfile5:
     g.bind("Movie", Movie_namespace)
 
 
+    # Create a new individual and add properties
+    for i in range(len(N_sample)):
+        User = Movie_namespace[f"User{i}"]
+        user_id = Movie_namespace[f"User{N_sample[i][0]}"]
+        movie_id = Movie_namespace[f"Movie{N_sample[i][1]}"]
+        rating = Literal(N_sample[i][2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
 
+        g.add((User, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
+        g.add((User, RDF.type, Movie_namespace.Rating))
+        g.add((User, Movie_namespace.hasForUser, user_id))
+        g.add((User, Movie_namespace.hasForMovie, movie_id))
+        g.add((User, Movie_namespace.rate, rating))
+
+    """
     Item2 = Movie_namespace.Item2
     #user_id = Movie_namespace[f"User{N_sample[1][0]}"]
     user_id = Literal(N_sample[1][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
@@ -81,7 +94,7 @@ with open('ml-100k/u.occupation','r') as csvfile5:
     g.add((Item2, Movie_namespace.userId, user_id))
     g.add((Item2, Movie_namespace.hasForMovie, movie_id))
     g.add((Item2, Movie_namespace.rate, rating))
-
+    """
 
     RDF_file = g.serialize(format='xml')
     #print(RDF_file)
