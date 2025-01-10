@@ -62,9 +62,9 @@ with open('ml-100k/u.user','r') as csvfile4:
     #User
     for i in range(len(N4)):
         User = Movie_namespace[f"User{i}"]
-        user_id = Literal(N4[i][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-        age = Literal(N4[i][1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
-        user_gender = Literal(N4[i][2], datatype="http://www.w3.org/2001/XMLSchema#string")
+        user_id = Literal(int(N4[i][0]), datatype="http://www.w3.org/2001/XMLSchema#int")
+        age = Literal(int(N4[i][1]), datatype="http://www.w3.org/2001/XMLSchema#int")
+        user_gender = Literal(N4[i][2], datatype="http://www.w3.org/2001/XMLSc/hema#string")
         occupation = Literal(N4[i][3], datatype="http://www.w3.org/2001/XMLSchema#string")
         zipcode = Literal(N4[i][4], datatype="http://www.w3.org/2001/XMLSchema#string")
 
@@ -80,7 +80,7 @@ with open('ml-100k/u.user','r') as csvfile4:
     #Kind - Les genres du film 
     for i in range (len(N2)):
         Kind = Movie_namespace[f"Kind{i}"]
-        kind_id = Literal(i, datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        kind_id = Literal(i, datatype="http://www.w3.org/2001/XMLSchema#int")
         kind_name = Literal(N2[i][0], datatype="http://www.w3.org/2001/XMLSchema#string")
         #print(kind_name)
         g.add((Kind, RDF.type, OWL.NamedIndividual))
@@ -125,12 +125,14 @@ with open('ml-100k/u.user','r') as csvfile4:
     #Rating
     for i in range(len(N_sample)):
         Item = Movie_namespace[f"Item{i}"]
-        user_id = Movie_namespace[f"Item{N_sample[i][0]}"]
+        item_id = Literal(i,datatype="http://www.w3.org/2001/XMLSchema#int")
+        user_id = Movie_namespace[f"User{N_sample[i][0]}"]
         movie_id = Movie_namespace[f"Movie{N_sample[i][1]}"]
-        rating = Literal(N_sample[i][2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        rating = Literal(int(N_sample[i][2]), datatype="http://www.w3.org/2001/XMLSchema#int")
 
         g.add((Item, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
         g.add((Item, RDF.type, Movie_namespace.Rating))
+        g.add((Item,Movie_namespace.itemId,item_id))
         g.add((Item, Movie_namespace.hasForUser, user_id))
         g.add((Item, Movie_namespace.hasForMovie, movie_id))
         g.add((Item, Movie_namespace.rate, rating))
