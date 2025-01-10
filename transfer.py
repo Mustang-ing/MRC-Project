@@ -1,7 +1,7 @@
 import csv
 from rdflib import URIRef,Literal,Namespace,Graph
 from rdflib.namespace import RDF,OWL
-
+from datetime import datetime
 
 # Etape 1 : Importer tous les fichier via csv.reader
 
@@ -44,18 +44,9 @@ with open('ml-100k/u.user','r') as csvfile4:
         exit(0)
     N4 = list(csv_reader)
     #print(N4)
+    
 
-with open('ml-100k/u.occupation','r') as csvfile5:
-    try:
-        csv_reader = csv.reader(csvfile5)
-    except FileNotFoundError:
-        print("Erreur fichier introuvable")
-        exit(0)
-    N5 = list(csv_reader)
-    #print(N5)
-
-
-#Etape 2 : Ecrire les instances sous forme RDF/XML
+    #Etape 2 : Ecrire les instances sous forme RDF/XML
 
     # Define the namespace
     Movie_namespace = Namespace("http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#")
@@ -68,18 +59,81 @@ with open('ml-100k/u.occupation','r') as csvfile5:
     g.bind("Movie", Movie_namespace)
 
 
-    # Create a new individual and add properties
-    for i in range(len(N_sample)):
+    #User
+    for i in range(len(N4)):
         User = Movie_namespace[f"User{i}"]
-        user_id = Movie_namespace[f"User{N_sample[i][0]}"]
+        user_id = Literal(N4[i][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        age = Literal(N4[i][1], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        user_gender = Literal(N4[i][2], datatype="http://www.w3.org/2001/XMLSchema#string")
+        occupation = Literal(N4[i][3], datatype="http://www.w3.org/2001/XMLSchema#string")
+        zipcode = Literal(N4[i][4], datatype="http://www.w3.org/2001/XMLSchema#string")
+
+        g.add((User, RDF.type, OWL.NamedIndividual))
+        g.add((User, RDF.type, Movie_namespace.User))
+        g.add((User, Movie_namespace.userId, user_id))
+        g.add((User, Movie_namespace.age, age))
+        g.add((User, Movie_namespace.gender, user_gender))
+        g.add((User, Movie_namespace.occupation, occupation))
+        g.add((User, Movie_namespace.zipcode, zipcode))        
+   
+
+    #Kind - Les genres du film 
+    for i in range (len(N2)):
+        Kind = Movie_namespace[f"Kind{i}"]
+        kind_id = Literal(i, datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        kind_name = Literal(N2[i][0], datatype="http://www.w3.org/2001/XMLSchema#string")
+        #print(kind_name)
+        g.add((Kind, RDF.type, OWL.NamedIndividual))
+        g.add((Kind, RDF.type, Movie_namespace.Kind))
+        g.add((Kind, Movie_namespace.kindId, kind_id))
+        g.add((Kind, Movie_namespace.kind, kind_name))
+
+    # Movie Class
+    for i in range(len(N3)):
+        Movie = Movie_namespace[f"Movie{i}"]
+        movie_id = Literal(N3[i][0], datatype="http://www.w3.org/2001/XMLSchema#decimal")
+        title = Literal(N3[i][1], datatype="http://www.w3.org/2001/XMLSchema#string")
+        imdb_url = Literal(N3[i][4], datatype="http://www.w3.org/2001/XMLSchema#string")
+
+        try:
+            #print(f"Movie : {movie_id} | Date : {N3[i][2]}")
+            if N3[i][2].strip():
+                release_date_value = datetime.strptime(N3[i][2],"%d-%b-%Y").strftime("%Y-%m-%dT00:00:00") # On converti la chaine de caractère en temps 
+                release_date = Literal(release_date_value, datatype="http://www.w3.org/2001/XMLSchema#dateTime")
+            else:
+                raise ValueError(f"Warning : Adding a movie {movie_id} without a release date")
+        except ValueError as e:
+            print(f"Error while parsing: {e}")
+            release_date = Literal(release_date_value, datatype="http://www.w3.org/2001/XMLSchema#dateTime")
+            #exit(1)
+        
+        g.add((Movie, RDF.type, OWL.NamedIndividual))
+        g.add((Movie, RDF.type, Movie_namespace.Movie))
+        g.add((Movie, Movie_namespace.movieId, movie_id))
+        g.add((Movie, Movie_namespace.movieTitle, title))
+        g.add((Movie, Movie_namespace.releaseDate, release_date))
+        g.add((Movie, Movie_namespace.IMDbUrl, imdb_url))
+
+        # Add Object Property for kinds
+        for j in range(5, 23):
+            if N3[i][j] == '1':  # Movie belongs to this kind
+                kind_ref = Movie_namespace[f"Kind{j - 5}"]
+                g.add((Movie, Movie_namespace.hasForKind, kind_ref))
+    
+
+
+    #Rating
+    for i in range(len(N_sample)):
+        Item = Movie_namespace[f"Item{i}"]
+        user_id = Movie_namespace[f"Item{N_sample[i][0]}"]
         movie_id = Movie_namespace[f"Movie{N_sample[i][1]}"]
         rating = Literal(N_sample[i][2], datatype="http://www.w3.org/2001/XMLSchema#decimal")
 
-        g.add((User, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
-        g.add((User, RDF.type, Movie_namespace.Rating))
-        g.add((User, Movie_namespace.hasForUser, user_id))
-        g.add((User, Movie_namespace.hasForMovie, movie_id))
-        g.add((User, Movie_namespace.rate, rating))
+        g.add((Item, RDF.type, OWL.NamedIndividual))  # Declare as NamedIndividual
+        g.add((Item, RDF.type, Movie_namespace.Rating))
+        g.add((Item, Movie_namespace.hasForUser, user_id))
+        g.add((Item, Movie_namespace.hasForMovie, movie_id))
+        g.add((Item, Movie_namespace.rate, rating))
 
     """
     Item2 = Movie_namespace.Item2
@@ -112,5 +166,17 @@ with open('ml-100k/u.occupation','r') as csvfile5:
         print(N3[i])
         print(N4[i])
     """
+
+
+"""
+with open('ml-100k/u.occupation','r') as csvfile5:
+    try:
+        csv_reader = csv.reader(csvfile5)
+    except FileNotFoundError:
+        print("Erreur fichier introuvable")
+        exit(0)
+    N5 = list(csv_reader)
+    #print(N5)
+"""
 
 

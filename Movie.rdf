@@ -57,9 +57,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMBDbUrl -->
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMDbUrl -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMBDbUrl">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMDbUrl">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
     </owl:DatatypeProperty>
@@ -102,9 +102,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind_id -->
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kindId -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind_id">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kindId">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Kind"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
     </owl:DatatypeProperty>
