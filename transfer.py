@@ -39,7 +39,7 @@ except FileNotFoundError:
     exit(1)
 
 # Sélection aléatoire de 200 lignes
-N_sample = random.sample(N1, 10)
+N_sample = random.sample(N1, 200)
 
 N_sample = [x[:3] for x in N_sample]  # Suppression de la colonne timestamp
 
