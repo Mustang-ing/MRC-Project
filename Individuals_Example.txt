@@ -1,0 +1,55 @@
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Genre1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Genre1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Kind"/>
+        <kind>Humour</kind>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Item1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Item1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie1"/>
+        <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1"/>
+        <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</rate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+        <hasForKind rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Genre1"/>
+        <movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</movieId>
+        <movieTitle>Les Saules</movieTitle>
+        <releaseDate>02-12-23</releaseDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation1">
+        <occupation>administrator</occupation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</age>
+        <gender>Helicoptere de combat</gender>
+        <occupation>administrator</occupation>
+        <userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</userId>
+        <zipcode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24004</zipcode>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+

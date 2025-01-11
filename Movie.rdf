@@ -40,12 +40,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForOccupation -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForOccupation"/>
-    
-
-
     <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
@@ -63,11 +57,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMBDbUrl -->
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMDbUrl -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMBDbUrl">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#IMDbUrl">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -94,7 +88,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#itemId">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -104,6 +98,15 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Kind"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kindId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kindId">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Kind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -129,7 +132,7 @@
     <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#occupation -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#occupation">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -166,7 +169,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#zipcode">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
@@ -198,12 +201,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation"/>
     
 
 
@@ -242,54 +239,7 @@
 
     <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForOccupation"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
-        <movieId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</movieId>
-        <movieTitle>Les Saules</movieTitle>
-        <releaseDate>02-12-23</releaseDate>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Occupation1"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
-        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23</age>
-        <gender>Helicoptere de combat</gender>
-        <userId rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</userId>
-        <zipcode rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24004</zipcode>
-    </owl:NamedIndividual>
+    <owl:Class rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
 </rdf:RDF>
 
 
