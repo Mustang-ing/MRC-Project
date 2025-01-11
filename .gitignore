@@ -7,3 +7,4 @@ __pycache__/
 ml-100k.zip
 catalog-v001.xml
 alt_transfer.py
+.vscode/
