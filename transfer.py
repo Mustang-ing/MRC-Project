@@ -16,7 +16,7 @@ with open('ml-100k/u1.base', 'r') as csvfile1:
 
     N_sample = N1[:200]
     N_sample = [ x[:3] for x in N_sample ] #Removing the timestamp 
-    #print(N_sample)
+    print(N_sample)
 
 with open('ml-100k/u.genre','r') as csvfile2:
     try:
@@ -34,6 +34,7 @@ with open('ml-100k/u.item','r', encoding='ISO-8859-1') as csvfile3:
         print("Erreur fichier introuvable")
         exit(0)
     N3 = list(csv_reader)
+    #N3 = [ k for (....) ]
     #print(N3)
 
 with open('ml-100k/u.user','r') as csvfile4:
@@ -119,7 +120,7 @@ with open('ml-100k/u.user','r') as csvfile4:
             if N3[i][j] == '1':  # Movie belongs to this kind
                 kind_ref = Movie_namespace[f"Kind{j - 5}"]
                 g.add((Movie, Movie_namespace.hasForKind, kind_ref))
-    
+
 
 
     #Rating
