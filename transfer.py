@@ -5,7 +5,7 @@ from rdflib import URIRef, Literal, Namespace, Graph
 from rdflib.namespace import RDF, OWL, XSD
 from datetime import datetime
 
-Taille_sample = 200
+Taille_sample = 200  # Nombre de lignes (de Rating) à extraire
 
 # Etape 1 : Importer tous les fichiers via csv.reader
 try:
