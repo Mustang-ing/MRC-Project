@@ -245,96 +245,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule1 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule1">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule2 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule2"/>
-    
-
-
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule3 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule3">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule4 -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule4">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:domain>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:domain>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate">
@@ -394,6 +304,118 @@
                 </owl:oneOf>
             </rdfs:Datatype>
         </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rate"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -10120,8 +10142,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie343"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User863"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -10152,8 +10175,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie210"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User221"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -10464,6 +10488,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User896"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">108</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -10526,6 +10551,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User26"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -10587,8 +10613,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie510"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User94"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -10836,8 +10863,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie230"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User442"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">119</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -10931,6 +10959,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User506"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">121</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -11055,6 +11084,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User385"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -11117,6 +11147,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User791"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">127</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -11148,6 +11179,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User119"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">128</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -11488,8 +11520,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie73"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User416"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">138</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -11613,8 +11645,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie257"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User416"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">141</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -12079,8 +12111,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie385"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User642"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -12546,6 +12578,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User385"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">169</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -12608,6 +12641,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User867"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">170</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -12825,6 +12859,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User606"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">177</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -12856,6 +12891,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User95"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">178</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13042,6 +13078,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User406"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">183</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13197,6 +13234,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User564"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">188</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13290,6 +13328,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User329"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">190</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13320,8 +13359,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie550"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User757"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">191</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13384,6 +13424,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User536"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">193</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13538,8 +13579,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie234"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User577"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">198</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -13570,8 +13611,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie80"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User660"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">199</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13727,6 +13769,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User682"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">202</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13789,6 +13832,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User64"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">204</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13882,6 +13926,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User59"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">207</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -13944,6 +13989,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User551"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">209</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -14037,6 +14083,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User548"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">211</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -14068,6 +14115,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User138"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">212</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -14657,6 +14705,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User656"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -14781,6 +14830,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User70"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">233</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -14904,8 +14954,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie472"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User332"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">237</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -14968,6 +15019,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User788"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">239</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -15154,6 +15206,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User244"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">244</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -15247,6 +15300,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User145"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">247</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -15309,6 +15363,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User42"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">249</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -15432,8 +15487,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie184"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User913"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">252</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -15837,6 +15893,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User13"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">264</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -15929,8 +15986,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie28"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User188"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">267</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -15962,6 +16020,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User896"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">268</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -16179,6 +16238,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User326"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">274</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -16241,6 +16301,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User659"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">276</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -16458,6 +16519,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User723"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">282</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -16643,8 +16705,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie526"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User496"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">288</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -16675,8 +16737,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie245"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User787"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">289</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -17048,8 +17110,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie229"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User198"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -17112,6 +17174,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User806"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -17143,6 +17206,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User571"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">301</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -17329,6 +17393,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User776"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">307</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -17483,8 +17548,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie101"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User286"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">311</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -17547,6 +17613,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User546"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">313</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -17950,6 +18017,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User653"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">325</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -18043,6 +18111,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User433"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">328</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -18073,8 +18142,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie398"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User393"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">329</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -18106,6 +18176,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User495"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -18198,8 +18269,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie110"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User577"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">332</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -18386,6 +18457,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User119"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">338</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -18510,6 +18582,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User862"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">341</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -19005,8 +19078,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie751"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User521"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">356</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -19037,8 +19111,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie33"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User425"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">357</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -19101,6 +19176,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User606"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">359</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -19472,8 +19548,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie568"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User484"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">37</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -19505,6 +19582,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User927"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">370</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -19722,6 +19800,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User804"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">377</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -19845,8 +19924,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie300"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User198"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">380</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -19971,6 +20050,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User600"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">384</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -20002,6 +20082,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User294"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">385</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -20064,6 +20145,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User804"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">387</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -20187,8 +20269,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie403"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User541"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">390</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -20251,6 +20333,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User178"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">392</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -20871,6 +20954,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User745"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -21026,6 +21110,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User659"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">414</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -21428,8 +21513,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie127"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User416"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">426</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -21554,6 +21639,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User622"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -21585,6 +21671,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User606"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">430</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -21677,8 +21764,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie472"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User37"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">433</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -21771,8 +21859,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie578"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User621"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">436</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -21834,8 +21923,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie96"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User566"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">438</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22052,8 +22142,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie373"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User640"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">444</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22240,6 +22331,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User927"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22364,6 +22456,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User659"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">453</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22394,8 +22487,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie755"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User193"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">454</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22519,8 +22613,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie117"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User52"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">458</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -22644,8 +22738,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie797"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User276"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">461</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22707,8 +22802,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie22"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User94"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">463</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22740,6 +22836,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User190"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">464</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22833,6 +22930,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User456"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">467</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -22957,6 +23055,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User312"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">470</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -23049,8 +23148,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie79"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User541"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">473</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -23206,6 +23305,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User804"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">478</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -23267,8 +23367,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie24"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User472"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -23486,6 +23587,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User897"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">486</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -23641,6 +23743,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User357"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">490</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -23672,6 +23775,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User552"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">491</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -23858,6 +23962,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User709"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">497</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -23919,8 +24024,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie228"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User246"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">499</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -24014,6 +24120,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User268"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">51</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -24045,6 +24152,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User643"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">52</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -24168,8 +24276,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie825"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User943"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -24417,8 +24526,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie241"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User618"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">63</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -24635,8 +24744,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie2"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User416"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -24730,6 +24839,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User251"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -24792,6 +24902,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User767"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">74</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -24915,8 +25026,8 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie313"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User711"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">78</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
     </owl:NamedIndividual>
     
 
@@ -25010,6 +25121,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User7"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -25165,6 +25277,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User738"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">85</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -25196,6 +25309,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User413"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">86</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -25226,8 +25340,9 @@
         <hasForMovie rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Movie326"/>
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User624"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">87</itemId>
-        <predictedRateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</predictedRateRule1>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule1>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -25352,6 +25467,7 @@
         <hasForUser rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User788"/>
         <itemId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">90</itemId>
         <rate rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</rate>
+        <rateRule2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rateRule2>
     </owl:NamedIndividual>
     
 
@@ -32389,9 +32505,6 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#ageUser">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
@@ -32400,7 +32513,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment></rdfs:comment>
+        <rdfs:comment>Les hommes aiment les films d&apos;action</rdfs:comment>
         <rdfs:label>Rule2</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -32440,9 +32553,9 @@
                                         <rdf:first>
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#age"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#gender"/>
                                                 <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u"/>
-                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#ageUser"/>
+                                                <swrl:argument2>M</swrl:argument2>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest>
@@ -32450,21 +32563,10 @@
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                 <rdf:first>
                                                     <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
-                                                        <swrl:arguments>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                <rdf:first rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#ageUser"/>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</rdf:first>
-                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </swrl:arguments>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
                                                     </rdf:Description>
                                                 </rdf:first>
                                                 <rdf:rest>
@@ -32473,9 +32575,9 @@
                                                         <rdf:first>
                                                             <rdf:Description>
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
-                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
-                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForKind"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
                                                             </rdf:Description>
                                                         </rdf:first>
                                                         <rdf:rest>
@@ -32483,26 +32585,13 @@
                                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                                                                 <rdf:first>
                                                                     <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForKind"/>
-                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
-                                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
+                                                                        <swrl:argument2>Action</swrl:argument2>
                                                                     </rdf:Description>
                                                                 </rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                                                        <rdf:first>
-                                                                            <rdf:Description>
-                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind"/>
-                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
-                                                                                <swrl:argument2>Animation</swrl:argument2>
-                                                                            </rdf:Description>
-                                                                        </rdf:first>
-                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
                                                             </rdf:Description>
                                                         </rdf:rest>
                                                     </rdf:Description>
@@ -32523,7 +32612,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule2"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule2"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
                         <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</swrl:argument2>
                     </rdf:Description>
@@ -32534,7 +32623,117 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment>Les étudiants mettent des notes de 5 au films d&apos;actions</rdfs:comment>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>Rule3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#occupation"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u"/>
+                                                <swrl:argument2>student</swrl:argument2>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForKind"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
+                                                                        <swrl:argument2>Animation</swrl:argument2>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule3"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Les étudiant aiment les films d&apos;actions (5)</rdfs:comment>
         <rdfs:label>Rule1</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -32621,7 +32820,7 @@
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRateRule1"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#rateRule1"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
                         <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</swrl:argument2>
                     </rdf:Description>
