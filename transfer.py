@@ -5,6 +5,8 @@ from rdflib import URIRef, Literal, Namespace, Graph
 from rdflib.namespace import RDF, OWL, XSD
 from datetime import datetime
 
+Taille_sample = 500  # Nombre de lignes (de Rating) à extraire
+
 # Etape 1 : Importer tous les fichiers via csv.reader
 try:
     with open('ml-100k/u1.base', 'r') as csvfile1:
@@ -38,8 +40,8 @@ except FileNotFoundError:
     print("Erreur : fichier 'u.user' introuvable.")
     exit(1)
 
-# Sélection aléatoire de 200 lignes
-N_sample = random.sample(N1, 200)
+# Sélection aléatoire de Taille_sample lignes
+N_sample = random.sample(N1, Taille_sample)
 
 N_sample = [x[:3] for x in N_sample]  # Suppression de la colonne timestamp
 

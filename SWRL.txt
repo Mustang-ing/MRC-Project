@@ -1,0 +1,18 @@
+FrontOrBackend?!?2024=>Enginner
+
+1) Les médecins notes des films de Sci-FI plus de 4. 
+Alt 1 : User(?x),occupation(?x,?y),stringEqualIgnoreCase(?y,"doctor"),Rating(?z),rate(?x,?value)
+
+Alt2: Rating(?x),hasForUser(?x,?u),User(?u),occupation(?u,?o),stringEqualIgnoreCase(?o,"doctor"),hasForMovie(?x,?f),hasForKind(?f,?
+
+
+2) Les médecins notes les film entre 1 et 3. 
+Rating(?x)^hasForUser(?x,?u)^User(?u)^occupation(?u,?o)^stringEqualIgnoreCase(?o,"doctor")^hasForMovie(?x,?f)^^rate(?r) -> isMedecin(?u)
+
+Invalid SWRL atom predicate 'stringEquallIgnoreCase'
+
+
+
+Rating(?x)^hasForUser(?x,?u)^User(?u)^occupation(?u,?o)^swrlb:stringEqualIgnoreCase(?o,"doctor") -> isMedecin(?u)
+
+

@@ -1,0 +1,21 @@
+PREFIX Movie: <http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (STR(AVG(?note)) AS ?MoyenneNote)
+WHERE {
+    ?rating a Movie:Rating ;
+       Movie:rate ?note;
+       Movie:hasForUser ?user;
+       Movie:hasForMovie ?movie.
+
+    ?user a Movie:User ;
+       Movie:occupation "student".
+
+    ?movie a Movie:Movie;
+       Movie:hasForKind ?type.
+
+    ?type a Movie:Kind;
+                     Movie:kind "Action".
+}
+
+Réponse : "3.428571428571428571428571"
