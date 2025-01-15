@@ -6,8 +6,28 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:Movie="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#">
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:Movie="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     
 
 
@@ -128,6 +148,50 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#occupation">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#User"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate2">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate5 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate5">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
     
 
@@ -285,6 +349,127 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Les etudiants aiment les film d&apos;action (Note = 3)</rdfs:comment>
+        <rdfs:label>R1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#Rating"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForUser"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#occupation"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#u"/>
+                                        <swrl:argument2>student</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForMovie"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#hasForKind"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#m"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#kind"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#k"/>
+                                                                <swrl:argument2>Action</swrl:argument2>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#predictedRate1"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#r"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
 </rdf:RDF>
 
 
