@@ -4,3 +4,5 @@ Movie:Rating(?r) ^ Movie:hasForUser(?r, ?u) ^ Movie:occupation(?u, "student"^^rd
 
 Rule2: Les hommes aiment les films d'action
 Movie:Rating(?r) ^ Movie:hasForUser(?r, ?u) ^ Movie:User(?u) ^ Movie:gender(?u, "M"^^rdf:PlainLiteral) ^ Movie:hasForMovie(?r, ?m) ^ Movie:hasForKind(?m, ?k) ^ Movie:kind(?k, "Action"^^rdf:PlainLiteral) -> Movie:rateRule2(?r, 5)
+
+Rule3: Movie:Rating(?r) ^ Movie:hasForUser(?r, ?u) ^ Movie:User(?u) ^ Movie:occupation(?u, "student") ^ Movie:hasForMovie(?r, ?m) ^ Movie:hasForKind(?m, ?k) ^ Movie:kind(?k, "Animation") -> Movie:rateRule3(?r, 4)
