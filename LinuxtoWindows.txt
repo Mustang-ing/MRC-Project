@@ -17,13 +17,25 @@ Alt 1 : User(?x),occupation(?x,?y),stringEqualIgnoreCase(?y,"doctor"),Rating(?z)
 Alt2: Rating(?x),hasForUser(?x,?u),User(?u),occupation(?u,?o),stringEqualIgnoreCase(?o,"doctor"),hasForMovie(?x,?f),hasForKind(?f,?
 
 
-2) Les médecins notes les film entre 1 et 3. 
-Rating(?x)^hasForUser(?x,?u)^User(?u)^occupation(?u,?o)^stringEqualIgnoreCase(?o,"doctor")^hasForMovie(?x,?f)^^rate(?r) -> isMedecin(?u)
+2) Les médecins notes les film entre 1 et 3. => Trop compliqué a mettre en place
 
-Invalid SWRL atom predicate 'stringEquallIgnoreCase'
+Rule 3) Les éducateurs note exactement 4 :
+Movie:Rating(?x) ^ Movie:hasForUser(?x, ?u) ^ Movie:User(?u) ^ Movie:occupation(?u, "educator"^^rdf:PlainLiteral) -> Movie:predictedRate(?x, 4)
+
+Plusieur manière de faire des régles sur le rating
+
+1) Tu utilise le rating en claire OU tu le réutilise si déjà instancié (Exemple, les fils de Western sont notées 4 et bla….)
+
+1) Partie Assertion, tu récupére toutes les prémises -> Conséquent : Appartient à la data property d'une régle vérifié ou le rating (le int de la data property) est à n 
+
+2) Partie assertion : Récupération prémise + condition sur le rating -> Conséquent : Appartient à une classe nouvellement généré de users qui vérifie cette règle
+
+Movie:Rating(?r) ^ Movie:hasForMovie(?r, ?m) ^ Movie:rate(?r, 2) ^ Movie:hasForKind(?m, ?k) ^ Movie:kind(?k, "Western") -> Movie:predictedRule2(?m)
 
 
+Testing a rule of basic complexity : Si les users sont des hommes, alors il note bien les film d'action (Note de 5) : 
 
-Rating(?x)^hasForUser(?x,?u)^User(?u)^occupation(?u,?o)^swrlb:stringEqualIgnoreCase(?o,"doctor") -> isMedecin(?u)
+Rating(?r)^hasForUser(?r,?u)^gender(?u,"M")^hasForMovie(?r,?m)^hasForKind(?m,?k)^kind(?k,"Action")^rate(?r,5) -> predictedRule3(?u)
 
 
+Movie:Rating(?r) ^ Movie:hasForUser(?r, ?u) ^ Movie:occupation(?u, "student"^^rdf:PlainLiteral) ^ Movie:hasForMovie(?r, ?m) ^ Movie:hasForKind(?m, ?k) ^ Movie:kind(?k, "Action"^^rdf:PlainLiteral) -> Movie:predictedRate1(?r, 3)
