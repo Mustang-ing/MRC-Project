@@ -1,3 +1,6 @@
+###############################################################################################
+# Partie 1 : requetes pour vérifier l'importation via le script transfer.py
+
 # Requete 1 :  Descriptifs complet des films et des individus qui ont noté ces films par 5
 PREFIX movie: <http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -58,4 +61,56 @@ WHERE {
     ?movie a MOVIE:Movie .
     ?user a MOVIE:User .
     ?rating a MOVIE:Rating .
+}
+
+###############################################################################################
+
+# Partie2: Requetes pour calculer la precisions et le rappel des règles
+
+
+True Positives (TP) : Les Rating pour lesquels predictedRateRule est correct (c'est-à-dire que la note prédite correspond à la valeur réelle).
+False Positives (FP) : Les Rating pour lesquels predictedRateRule est incorrect (c'est-à-dire que la note prédite ne correspond pas à la valeur réelle).
+False Negatives (FN) : Les Rating pertinents (ayant une vraie note) pour lesquels predictedRateRule n'a pas fait de prédiction correcte.
+
+PREFIX Movie: <http://www.semanticweb.org/ing-mustang/ontologies/2024/11/Movie.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT 
+    (COUNT(?r1) AS ?TP) 
+    (COUNT(?r2) AS ?FP) 
+    (COUNT(?r3) AS ?FN)
+WHERE {
+  # True Positives (TP): Les prédictions correctes
+  {
+    SELECT ?r1
+    WHERE {
+      ?r1 a Movie:Rating .
+      ?r1 Movie:predictedRateRule1 ?predictedRate .
+      ?r1 Movie:rate ?actualRate .
+      FILTER(?predictedRate = ?actualRate)
+    }
+  }
+  # False Positives (FP): Les prédictions incorrectes
+  UNION {
+    SELECT ?r2
+    WHERE {
+      ?r2 a Movie:Rating .
+      ?r2 Movie:predictedRateRule1 ?predictedRate .
+      ?r2 Movie:rate ?actualRate .
+      FILTER(?predictedRate != ?actualRate)
+    }
+  }
+  # False Negatives (FN): Les cas pertinents non trouvés
+  UNION {
+    SELECT ?r3
+    WHERE {
+      ?r3 a Movie:Rating .
+      ?r3 Movie:rate ?actualRate .
+      FILTER NOT EXISTS {
+        ?r3 Movie:predictedRateRule1 ?predictedRate .
+        FILTER(?predictedRate = ?actualRate)
+      }
+    }
+  }
 }
